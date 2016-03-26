@@ -36,7 +36,7 @@ public class Deportes{
 
 
     String leer(){
-      String archivo="dep.txt";
+      String archivo="/app/dep.txt";
       String cadena="";
       try{
         FileReader f = new FileReader(archivo);
