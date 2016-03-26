@@ -29,7 +29,7 @@ public class Deportes{
 
 
     String leer(){
-      String archivo="deporte.xml";
+      String archivo="heroku/deporte.xml";
       String cadena="";
       try{
         FileReader f = new FileReader(archivo);
