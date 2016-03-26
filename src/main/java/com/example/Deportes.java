@@ -24,7 +24,7 @@ public class Deportes{
     @GET
     @Produces("text/xml")
     public String getIt() {
-        return CADENA;
+        return leer();
     }
 
 
