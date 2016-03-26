@@ -43,7 +43,7 @@ public class Deportes{
 
 
     String leer(){
-      String archivo="dep.txt";
+      String archivo="/app/src/main/java/com/example/dep.txt";
       String cadena="";
       try{
         FileReader f = new FileReader(archivo);
