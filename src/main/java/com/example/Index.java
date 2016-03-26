@@ -8,8 +8,8 @@ import javax.ws.rs.core.MediaType;
 /**
  * Root resource (exposed at "myresource" path)
  */
-@Path("getDeportes")
-public class Deportes{
+@Path("")
+public class Index {
 
     /**
      * Method handling HTTP GET requests. The returned object will be sent
@@ -18,8 +18,8 @@ public class Deportes{
      * @return String that will be returned as a text/plain response.
      */
     @GET
-    @Produces("text/xml")
+    @Produces(MediaType.XML)
     public String getIt() {
-        return "<?xml version='1.0' encoding='UTF-8'?><root><value>Primer WEbService</value></root>";
+        return "Proyecto patrones de diseño";
     }
 }
