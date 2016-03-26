@@ -1,5 +1,9 @@
 package com.example;
 
+import java.io.BufferedReader;
+import java.io.FileNotFoundException;
+import java.io.FileReader;
+import java.io.IOException;
 import javax.ws.rs.GET;
 import javax.ws.rs.Path;
 import javax.ws.rs.Produces;
@@ -20,6 +24,30 @@ public class Deportes{
     @GET
     @Produces("text/xml")
     public String getIt() {
-        return "<?xml version='1.0' encoding='UTF-8'?><root><value>Primer WEbService</value></root>";
+        return leer();
     }
+
+
+    String leer(){
+      String archivo="deporte.xml";
+      String cadena="";
+      try{
+        FileReader f = new FileReader(archivo);
+        BufferedReader b = new BufferedReader(f);
+        while(( b.readLine())!=null) {
+            cadena+=b.readLine();
+        }
+        b.close();
+
+      }
+      catch(Exception e){
+        e.printStackTrace();
+      }
+
+
+      return cadena;
+
+}
+
+
 }
