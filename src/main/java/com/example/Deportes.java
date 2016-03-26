@@ -26,7 +26,14 @@ public class Deportes{
     public String getIt() {
       File miDir = new File (".");
      try {
-       System.out.println ("Directorio actual: " + miDir.getCanonicalPath());
+       String[] ficheros = miDir.list();
+       System.out.println ("Directorio actual: " + miDir.getAbsolutePath());
+       if (ficheros == null)
+       System.out.println("No hay ficheros en el directorio especificado");
+       else {
+         for (int x=0;x<ficheros.length;x++)
+         System.out.println(ficheros[x]);
+}
        }
      catch(Exception e) {
        e.printStackTrace();
@@ -36,7 +43,7 @@ public class Deportes{
 
 
     String leer(){
-      String archivo="/app/dep.txt";
+      String archivo="dep.txt";
       String cadena="";
       try{
         FileReader f = new FileReader(archivo);
