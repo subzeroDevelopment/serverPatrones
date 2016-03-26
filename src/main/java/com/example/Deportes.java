@@ -24,7 +24,7 @@ public class Deportes{
     @GET
     @Produces("text/xml")
     public String getIt() {
-      File miDir = new File (".");
+      File miDir = new File ("./src");
      try {
        String[] ficheros = miDir.list();
        System.out.println ("Directorio actual: " + miDir.getAbsolutePath());
