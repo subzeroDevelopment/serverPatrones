@@ -43,13 +43,14 @@ public class Deportes{
 
 
     String leer(){
-      String archivo="/app/src/main/java/com/example/dep.txt";
+      String archivo="/app/src/main/java/com/example/dep.xml";
       String cadena="";
       try{
         FileReader f = new FileReader(archivo);
         BufferedReader b = new BufferedReader(f);
         while(( b.readLine())!=null) {
             cadena+=b.readLine();
+            cadena+="\n";
         }
         b.close();
       }
