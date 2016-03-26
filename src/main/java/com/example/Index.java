@@ -18,7 +18,7 @@ public class Index {
      * @return String that will be returned as a text/plain response.
      */
     @GET
-    @Produces(MediaType.XML)
+    @Produces("text/plain")
     public String getIt() {
         return "Proyecto patrones de diseño";
     }
