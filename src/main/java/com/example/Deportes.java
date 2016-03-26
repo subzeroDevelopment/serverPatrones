@@ -38,15 +38,11 @@ public class Deportes{
             cadena+=b.readLine();
         }
         b.close();
-
       }
       catch(Exception e){
         e.printStackTrace();
       }
-
-
       return cadena;
-
 }
 
 
