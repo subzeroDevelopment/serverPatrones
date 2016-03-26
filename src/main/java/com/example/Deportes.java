@@ -1,5 +1,5 @@
 package com.example;
-
+import java.io.File;
 import java.io.BufferedReader;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
@@ -24,6 +24,13 @@ public class Deportes{
     @GET
     @Produces("text/xml")
     public String getIt() {
+      File miDir = new File (".");
+     try {
+       System.out.println ("Directorio actual: " + miDir.getCanonicalPath());
+       }
+     catch(Exception e) {
+       e.printStackTrace();
+       }
         return leer();
     }
 
