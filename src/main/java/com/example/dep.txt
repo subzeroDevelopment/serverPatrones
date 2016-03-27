@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
 <deportes>
 <item>
   <guid isPermaLink="false">f255377b-60af-4fa5-b2ec-e123a69fdbd0</guid>
