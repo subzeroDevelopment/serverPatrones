@@ -12,8 +12,8 @@ import javax.ws.rs.core.MediaType;
 /**
  * Root resource (exposed at \"myresource" path)
  */
-@Path("getXML/Noticias")
-public class Noticias{
+@Path("getXML/Tecnologia")
+public class Tecnologia{
 
     /**
      * Method handling HTTP GET requests. The returned object will be sent
