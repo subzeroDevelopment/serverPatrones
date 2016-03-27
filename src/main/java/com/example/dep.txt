@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
-<deportes>
+<channel>
 <item>
   <guid isPermaLink="false">f255377b-60af-4fa5-b2ec-e123a69fdbd0</guid>
   <title>Edinson Vólquez abrirá primer partido de Reales</title>
@@ -85,4 +85,4 @@ Bajo la silla del mexicano Víctor Espinoza, el pupilo de Art Sherman accionó m
   <link>http://www.liderendeportes.com/Noticias/Hipismo/VIDEO--El-espectacular-remate-de-California-Chrome.aspx</link>
   <pubDate>Sat, 26 Mar 2016 14:59:18 GMT</pubDate>
 </item>
-</deportes>
+</channel></rss>
