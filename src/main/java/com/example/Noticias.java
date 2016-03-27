@@ -12,8 +12,8 @@ import javax.ws.rs.core.MediaType;
 /**
  * Root resource (exposed at \"myresource" path)
  */
-@Path("getXML/Deportes")
-public class Deportes{
+@Path("getXML/Noticias")
+public class Noticias{
 
     /**
      * Method handling HTTP GET requests. The returned object will be sent
@@ -36,7 +36,7 @@ public class Deportes{
         try {
            // Apertura del fichero y creacion de BufferedReader para poder
            // hacer una lectura comoda (disponer del metodo readLine()).
-           archivo = new File ("/app/src/main/java/com/example/dep.txt");
+           archivo = new File ("noticias.xml");
            fr = new FileReader (archivo);
            br = new BufferedReader(fr);
 
