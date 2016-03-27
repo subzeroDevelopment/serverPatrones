@@ -36,7 +36,7 @@ public class Deportes{
         try {
            // Apertura del fichero y creacion de BufferedReader para poder
            // hacer una lectura comoda (disponer del metodo readLine()).
-           archivo = new File ("/app/src/main/java/com/example/dep.txt");
+           archivo = new File ("dep.xml");
            fr = new FileReader (archivo);
            br = new BufferedReader(fr);
 

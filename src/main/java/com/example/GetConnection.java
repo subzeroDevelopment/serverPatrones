@@ -12,6 +12,9 @@ public class GetConnection {
           URI dbUri = new URI(System.getenv("DATABASE_URL"));
           String username = dbUri.getUserInfo().split(":")[0];
           String password = dbUri.getUserInfo().split(":")[1];
+          System.out.println("user:"+username);
+          System.out.println("pass:"+password);
+
           String dbUrl = "jdbc:postgresql://" + dbUri.getHost() + dbUri.getPath();
           driver=DriverManager.getConnection(dbUrl, username, password);
           return DriverManager.getConnection(dbUrl, username, password);
