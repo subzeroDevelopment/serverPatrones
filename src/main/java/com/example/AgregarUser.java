@@ -1,3 +1,4 @@
+package com.example;
 import javax.ws.rs.DELETE;
 import javax.ws.rs.GET;
 import javax.ws.rs.HEAD;
