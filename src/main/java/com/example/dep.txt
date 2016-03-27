@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<noticias>
+<item>
+  <guid isPermaLink="false">f255377b-60af-4fa5-b2ec-e123a69fdbd0</guid>
+  <title>Edinson Vólquez abrirá primer partido de Reales</title>
+  <description>Vólquez tuvo marca de 13-9 con 3.55 de efectividad la temporada pasada, y sólo permitió cinco carreras en dos aperturas contra los Mets en la Serie Mundial. SURPRISE.- Edinson Vólquez abrirá el primer partido de la temporada de los Reales de Kansas City el 3 de abril ante los Mets de Nueva York, en el que será una reedición del quinto duelo de la pasada Serie Mundial, anunció el sábado el manager Ned Yost.Matt Harvey, quien abrió el último juego de la Serie Mundial ante Vólquez, estará en el montículo en el estadio Kauffman."¿Cuándo fue la última vez que dos abridores lanzaron en partidos consecutivos? Los abridores del quinto partido vuelven a enfrentarse", dijo Yost al anunciar la selección del dominicano.Vólquez tuvo marca de 13-9 con 3.55 de efectividad la temporada pasada, y sólo permitió cinco carreras en dos aperturas contra los Mets en la Serie Mundial. Al escuchar el anuncio de Yost, de inmediato bromeó con su mánager y le preguntó, "¿qué hay de Ventura?".Yordano Ventura, quien abrió el primer partido de la temporada de 2015, lanzará el tercer encuentro, el 8 de abril, contra los Mellizos de Minnesota. Yost dijo que retrasó la salida del dominicano porque ha estado afectado por la gripe.Ian Kennedy, fichado por los Reales esta temporada por cinco años y US$70 millones, abrirá el segundo encuentro por los campeones de la Serie Mundial. Chris Young y Kris Medlen redondean la rotación.</description>
+  <link>http://www.liderendeportes.com/Noticias/Beisbol/Edinson-Volquez-abrira-primer-partido-de-Reales.aspx></link>
+  <pubDate>Sat, 26 Mar 2016 17:03:50 GMT</pubDate>
+<enclosure url='http://www.liderendeportes.com/CMSPages/GetFile.aspx?guid=8eeed451-3129-40b6-82fe-4468312a2454' type='image/jpeg' length='0'></enclosure>
+</item>
+<item>
+  <guid isPermaLink="false">1e6a9b42-760e-4fb7-9440-cb7fcc509b44</guid>
+  <title>Hernán Crespo destituido como entrenador del Módena</title>
+  <description>El director deportivo del Módena, Massimo Taibi, comunicó la decisión al argentino al acabar el partido ante el Cagliari MÓDENA.-El argentino Hernán Crespo ha sido destituido como entrenador del Módena, de la Segunda división italiana, tras perder este sábado ante el líder Cagliari por 1-2. Era la tercera derrota seguida del conjunto de Crespo, fraguada en el tiempo de prolongación, en el que el Cagliari anotó los tantos de la remontada por medio del brasileño Farias y de Marco Sau, lo que deja al equipo en la decimoctava plaza. El director deportivo del Módena, Massimo Taibi, comunicó la decisión a Crespo al acabar el partido, que también terminó con incidentes porque un grupo de ultras muy disgustados accedieron incluso a la sala de prensa e incluso pidieron hablar con el presidente, Michele Caliendo. El propio club ha emitido un comunicado anunciando la destitución de Crespo, que llegó al cargo en 2015, al que le agradece todo su esfuerzo y le desea la mejor fortuna en su futuro profesional. </description>
+  <link>http://www.liderendeportes.com/Noticias/Futbol/Hernan-Crespo-destituido-como-entrenador-del-Moden.aspx</link>
+  <pubDate>Sat, 26 Mar 2016 16:38:38 GMT</pubDate>
+<enclosure url='http://www.liderendeportes.com/CMSPages/GetFile.aspx?guid=75fdee21-655d-442c-b66b-4041dc3a11fd' type='image/jpeg' length='0'></enclosure>
+</item>
+<item>
+  <guid isPermaLink="false">2e6e04f0-c0f5-4109-b5f4-fd08e7b8202c</guid>
+  <title>Nadal abandona por problemas físicos en Miami</title>
+  <description>El bosnio Damir Dzumhur avanzó en el Masters 1000  MIAMI.-El español Rafael Nadal tuvo que abandonar este sábado en el Masters 1.000 de Miami debido a problemas físicos cuando disputaba el tercer set de su partido debut en el torneo ante el bosnio Damir Dzumhur. Nadal, que ganó con comodidad el primer set (6-2), comenzó a sentirse mal y pidió la asistencia médica en varias ocasiones, la primera la conclusión del segundo set (4-6) y una segunda cuando el marcador señalaba un 2-0 en la manga de desempate. El propio jugador bosnio también tuvo que pedir ayuda al médico al terminar el primer set, en una jornada de calor intenso en el Estadio del Centro de Tenis de Crandon Park.  </description>
+  <link>http://www.liderendeportes.com/Noticias/Mas-Deportes/Nadal-abandona-por-problemas-fisicos-en-Miami.aspx</link>
+  <pubDate>Sat, 26 Mar 2016 16:24:27 GMT</pubDate>
+<enclosure url='http://www.liderendeportes.com/CMSPages/GetFile.aspx?guid=73070c25-3726-41fa-85ed-a57f129a33a1' type='image/jpeg' length='0'></enclosure>
+</item>
+<item>
+  <guid isPermaLink="false">a0598d86-d3e9-4524-814f-16bc752f17ca</guid>
+  <title>Resultados de la jornada de acción de la LPB del 26/03/2016</title>
+  <description>Sigue la acción acá CARACAS.-Sigue la acción acá
+Guaiqueríes de Margarita vs Marinos de Anzoátegui Hora:7:00pmBucaneros de La Guaira vs Panteras de MirandaHora:7:00pmCocodrilos de Caracas vs Guaros de LaraHora:6:00pmTOros de Aragua vs Gaiteros del ZuliaHora:6.00pmTrotamundos de Carabobo vs Gigantes de Guayana Hora:6:00pm </description>
+  <link>http://www.liderendeportes.com/Noticias/Baloncesto/Resultados-de-la-jornada-de-accion-de-la-LPB---20-.aspx</link>
+  <pubDate>Sat, 26 Mar 2016 16:16:22 GMT</pubDate>
+<enclosure url='http://www.liderendeportes.com/CMSPages/GetFile.aspx?guid=056daf0e-6640-4f99-8df0-a69d641d3713' type='image/jpeg' length='0'></enclosure>
+</item>
+<item>
+  <guid isPermaLink="false">5ad7090c-6856-441d-a65e-06b8e4d796c1</guid>
+  <title>Resultados de la  jornada reprogramada del Torneo Apertura</title>
+  <description>Este fin de semana hay 3 partidos CARACAS:-Este fin de semana hay 3 partidos, sigue la acción acá
+SábadoMineros de Guayana 1-0 Zulia | 1T | Hora:4:00pmEstadio:CachamayGol: Camargo 9'DomingoEstudiantes de Caracas vs Deportivo TáchiraHora: 3.30pm Estadio: Brígido IriarteUreña vs TrujillanosHora:3:30pm Estadio: Pueblo Nuevo </description>
+  <link>http://www.liderendeportes.com/Noticias/Futbol/Resultados-de-la--jornada-reprogramada-del-Torneo-.aspx</link>
+  <pubDate>Sat, 26 Mar 2016 16:11:25 GMT</pubDate>
+<enclosure url='http://www.liderendeportes.com/CMSPages/GetFile.aspx?guid=5fdaa293-f238-4f6d-9e95-d96f50274616' type='image/jpeg' length='0'></enclosure>
+</item>
+<item>
+  <guid isPermaLink="false">1f68e3d2-5f1d-4adb-8b23-57b55845ba22</guid>
+  <title>Rosales, Seijas y" Sema" entrenaron con el grupo</title>
+  <description>Los tres legionarios eran los que faltaban por integrarse a La Vinotito que jugará ante Chile martes
+ CARACAS.-Roberto Rosales,Luis Manuel Seijas y José Manuel Velasquez se integraron a La Vinotinto y entrenaron en la mañana de este sábado con el grupo de jugadores que viajó a Barinas tras el empate 2-2 ante Perú en Lima.Estos tres legionarios eran los jugadores que fataban por incorporarse a la selección mayor que disputará su segundo partido de eliminatorias suramericanas al Mundial de Rusia 2018, el próximo martes ante Chile en el Estadio Agustín Tovar, de Barinas.La Vinotinto entrenará a puertas cerradas en la tarde de este sábado y hará lo propio el domingo en la tarde. </description>
+  <link>http://www.liderendeportes.com/Noticias/Futbol/Rosales--Seijas-y--Sema--entrenaron-con-el-grupo.aspx</link>
+  <pubDate>Sat, 26 Mar 2016 16:02:22 GMT</pubDate>
+<enclosure url='http://www.liderendeportes.com/CMSPages/GetFile.aspx?guid=19c84e56-5714-4873-93a2-876279f8293b' type='image/jpeg' length='0'></enclosure>
+</item>
+<item>
+  <guid isPermaLink="false">e176da61-5bf6-458a-b249-385f7336683a</guid>
+  <title>Vinotinto se quedó con el hospedaje reservado por Chile</title>
+  <description>Hace un mes un miembro de la selección chilena había preparado la logística en Barinas para la estadía, sin embargo esto cambió drásticamente. La Asociación Nacional de Fútbol Profesional de Chile (ANFP) se quejó por haber perdido las reservas que habían hecho con antelación en el Eurobuilding Express Barinas.
+De acuerdo con un texto publicado en el diario La Tercera, las habitaciones que estaban aseguradas para los jugadores de la Roja fueron cedidas por la administarción del hotel a los futbolistas y al cuerpo técnico de la Vinotinto.
+"Venezuela mete el primer gol", es el título del texto que narra lo sucedido.
+"Todo parecía en orden, hasta que desde la adminstración del recinto les informaron que las habitaciones ya no estaban disponibles: se las habían traspasado al combinado local", se extrae del artículo. El Eurobuilding Express Barinas, está ubicado a 10 kilómetros del aeropuerto que sirve a la ciudad y posee las condiciones que exigen los jugadores chilenos, sin embargo, ya no se hospedarán allí.
+De acuerdo con Andrés Fazio, primer vicepresidente de la ANFP, el viaje de los chilenos a Barinas "ha sido complicado" debido a los problemas de hotelería.
+"El viaje nos costó carísimo”, cuenta Fazio, quien informó que lograron conseguir alojamiento en el Living Barinas, el cual "está muy lejos del nivel que acostumbran los seleccionados", asegura.
+"El problema es que no hay mucha oferta disponible en Barinas y ha habido que tomar lo que estaba libre”, dice.
+El Hotel Living Barinas es tres estrellas y es catalogado uno de lo más importantes y lujosos de la ciudad.  </description>
+  <link>http://www.liderendeportes.com/Noticias/Tiempo-Extra/Vinotinto-se-quedo-con-el-hospedaje-reservado-por-.aspx</link>
+  <pubDate>Sat, 26 Mar 2016 15:47:54 GMT</pubDate>
+<enclosure url='http://www.liderendeportes.com/CMSPages/GetFile.aspx?guid=83877aca-a30c-4715-a2dd-5df24b4e2907' type='image/jpeg' length='0'></enclosure>
+</item>
+<item>
+  <guid isPermaLink="false">28cc3233-4b4f-457c-a000-dea71fdbfe02</guid>
+  <title>VIDEO: California Chrome con autoridad en la Copa Mundial</title>
+  <description>El caballo doble coronado de 2014 tomó desquite de su derrota el año pasado. Lo montó Víctor Espinoza
+ CARACAS.- Con suma falicidad el vistoso caballo California Chrome, ganador del Kentucky Derby y el Preakness Stakes en 2014, galopó este sábado la Copa Mundial de Dubai, la carrera más rica del planeta, con 10 millones de dólares en premios, escenificado en el hipódromo de Meydan, en los Emiratos Árabes Unidos.
+Bajo la silla del mexicano Víctor Espinoza, el pupilo de Art Sherman accionó muy cómodo hasta promediar los 600 metros finales, cuando enserió su avance por fuera. Pasó de viaje a mitad de la recta y se despidió en la delantera, ante el delirio de los asistentes al majestuoso escenario.Con esta victoria, California Chrome se convierte en mayor productor de dinero en la historia, al rebasar los 12 millones de dólares. De paso se erigió en el tercer pura sangre que además de ganar el Kentucky Derby se anotó la Copa Mundial de Dubai.
+. </description>
+  <link>http://www.liderendeportes.com/Noticias/Hipismo/VIDEO--California-Chrome-con-autoridad-en-la-Copa-.aspx</link>
+  <pubDate>Sat, 26 Mar 2016 15:31:21 GMT</pubDate>
+<enclosure url='http://www.liderendeportes.com/CMSPages/GetFile.aspx?guid=5d79ef49-b42a-4d6f-8355-88660cd244ea' type='image/jpeg' length='0'></enclosure>
+</item>
+<item>
+  <guid isPermaLink="false">2339ab64-b19f-4bff-918d-9d5784d1217c</guid>
+  <title>VIDEO: El espectacular remate de California Chrome en Dubai</title>
+  <description>El Triple coronado se sacó la espina del año pasado y se llevó la Dubai Cup en espectacular carrera   </description>
+  <link>http://www.liderendeportes.com/Noticias/Hipismo/VIDEO--El-espectacular-remate-de-California-Chrome.aspx</link>
+  <pubDate>Sat, 26 Mar 2016 14:59:18 GMT</pubDate>
+</item>
+</noticias>
+
+</noticias>

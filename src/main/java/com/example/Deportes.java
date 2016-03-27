@@ -24,39 +24,42 @@ public class Deportes{
     @GET
     @Produces("text/xml")
     public String getIt() {
-      File miDir = new File ("./src");
-     try {
-       String[] ficheros = miDir.list();
-       System.out.println ("Directorio actual: " + miDir.getAbsolutePath());
-       if (ficheros == null)
-       System.out.println("No hay ficheros en el directorio especificado");
-       else {
-         for (int x=0;x<ficheros.length;x++)
-         System.out.println(ficheros[x]);
-}
-       }
-     catch(Exception e) {
-       e.printStackTrace();
-       }
         return leer();
     }
 
 
-    String leer(){
-      String archivo="/app/src/main/java/com/example/dep.xml";
-      String cadena="";
-      try{
-        FileReader f = new FileReader(archivo);
-        BufferedReader b = new BufferedReader(f);
-        while(( b.readLine())!=null) {
-            cadena+=b.readLine();
-            cadena+="\n";
+    private String leer(){
+      File archivo =null;
+        FileReader fr = null;
+        BufferedReader br = null;
+        String texto="";
+        try {
+           // Apertura del fichero y creacion de BufferedReader para poder
+           // hacer una lectura comoda (disponer del metodo readLine()).
+           archivo = new File ("dep.txt");
+           fr = new FileReader (archivo);
+           br = new BufferedReader(fr);
+
+           // Lectura del fichero
+           String linea;
+           while((linea=br.readLine())!=null)
+              texto=texto+linea+"\n";
+              //System.out.println(linea);
         }
-        b.close();
-      }
-      catch(Exception e){
-        e.printStackTrace();
-      }
-      return cadena;
+        catch(Exception e){
+           e.printStackTrace();
+        }finally{
+           // En el finally cerramos el fichero, para asegurarnos
+           // que se cierra tanto si todo va bien como si salta
+           // una excepcion.
+           try{
+              if( null != fr ){
+                 fr.close();
+              }
+           }catch (Exception e2){
+              e2.printStackTrace();
+           }
+        }
+        return texto;
 }
 }
