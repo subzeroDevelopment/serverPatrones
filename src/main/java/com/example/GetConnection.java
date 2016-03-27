@@ -3,7 +3,7 @@ import java.net.URISyntaxException;
 import java.sql.*;
 
 public class GetConnection {
-      private static DriverManager driver=null;
+      private static Connection driver=null;
 
     private GetConnection(){}
     public  static Connection getConnection() throws URISyntaxException, SQLException {
