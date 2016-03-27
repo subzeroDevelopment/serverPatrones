@@ -15,21 +15,23 @@ public class AgregarUser{
       @POST
       @Path("/{param}")
       public Response postMsg(@PathParam("param") String msg) {
-         Connection connection = GetConnection.getConnection();
+        try{
+          Connection connection = GetConnection.getConnection();
 
-         Statement stmt = connection.createStatement();
-         stmt.executeUpdate("DROP TABLE IF EXISTS ticks");
-         stmt.executeUpdate("CREATE TABLE ticks (tick timestamp)");
-         stmt.executeUpdate("INSERT INTO ticks VALUES (now())");
-         ResultSet rs = stmt.executeQuery("SELECT tick FROM ticks");
-         while (rs.next()) {
-          System.out.println("Read from DB: " + rs.getTimestamp("tick"));
+          Statement stmt = connection.createStatement();
+          stmt.executeUpdate("DROP TABLE IF EXISTS ticks");
+          stmt.executeUpdate("CREATE TABLE ticks (tick timestamp)");
+          stmt.executeUpdate("INSERT INTO ticks VALUES (now())");
+          ResultSet rs = stmt.executeQuery("SELECT tick FROM ticks");
+          while (rs.next()) {
+            System.out.println("Read from DB: " + rs.getTimestamp("tick"));
+          }
         }
-
-
+        catch(Exception e){
+          e.printStackTrace();
+        }
           String output = "POST:Jersey say : " + msg;
           return Response.status(200).entity(output).build();
-
 
       }
 
@@ -37,18 +39,23 @@ public class AgregarUser{
       @Path("/post")
       //@Consumes(MediaType.TEXT_XML)
       public Response postStrMsg( String msg) {
-        Connection connection = GetConnection.getConnection();
+        try{
+          Connection connection = GetConnection.getConnection();
 
-        Statement stmt = connection.createStatement();
-        stmt.executeUpdate("DROP TABLE IF EXISTS ticks");
-        stmt.executeUpdate("CREATE TABLE ticks (tick timestamp)");
-        stmt.executeUpdate("INSERT INTO ticks VALUES (now())");
-        ResultSet rs = stmt.executeQuery("SELECT tick FROM ticks");
-        while (rs.next()) {
-         System.out.println("Read from DB: " + rs.getTimestamp("tick"));
-       }
-         String output = "POST:Jersey say : " + msg;
-         return Response.status(200).entity(output).build();
+          Statement stmt = connection.createStatement();
+          stmt.executeUpdate("DROP TABLE IF EXISTS ticks");
+          stmt.executeUpdate("CREATE TABLE ticks (tick timestamp)");
+          stmt.executeUpdate("INSERT INTO ticks VALUES (now())");
+          ResultSet rs = stmt.executeQuery("SELECT tick FROM ticks");
+          while (rs.next()) {
+            System.out.println("Read from DB: " + rs.getTimestamp("tick"));
+          }
+        }
+        catch(Exception e){
+          e.printStackTrace();
+        }
+          String output = "POST:Jersey say : " + msg;
+          return Response.status(200).entity(output).build();
 
       }
 
