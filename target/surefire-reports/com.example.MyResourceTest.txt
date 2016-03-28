@@ -1,4 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: com.example.MyResourceTest
 -------------------------------------------------------------------------------
+<<<<<<< HEAD
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.357 sec
+=======
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.087 sec
+>>>>>>> a486556da48f5faa164b315ba71c75a0e8b74ec8
