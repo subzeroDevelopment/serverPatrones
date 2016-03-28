@@ -19,7 +19,7 @@ import javax.ws.rs.Produces;
 
 @Path("/addUser")
 public class AgregarUser{
-      String URL="jdbc:postgresql://ec2-54-243-149-147.compute-1.amazonaws.com:5432/dau1to9lfh16k3?user=zbuqlgfhcjnvyv&password=LyceoJd0YeTQe7ueEHRri8uhr-&sslmode=require";
+      //String URL="jdbc:postgresql://ec2-54-243-149-147.compute-1.amazonaws.com:5432/dau1to9lfh16k3?user=zbuqlgfhcjnvyv&password=LyceoJd0YeTQe7ueEHRri8uhr-&sslmode=require";
 
       @POST
       @Path("/prueba")
@@ -30,6 +30,7 @@ public class AgregarUser{
         try{
         ReadXML lec=new ReadXML();
           ar=lec.cargarXml(incomingXML);
+          System.out.println(ar[3]);
         }
         catch(Exception e){
           e.printStackTrace();
@@ -40,12 +41,12 @@ public class AgregarUser{
           Connection connection = GetConnection.getConnection();
 
           Statement stmt = connection.createStatement();
-          String s="INSERT INTO observadores(nombre,url,mail) VALUES(\'"+ar[0]+"\',\'"+ar[1]+"\',\'"+ar[2]+"\')";
-          //System.out.println(s);
+          String s="INSERT INTO observadores(nombre,url,mail,intereses) VALUES(\'"+ar[0]+"\',\'"+ar[1]+"\',\'"+ar[2]+"\',\'"+ar[3]+"\')";
+          System.out.println(s);
           stmt.executeUpdate(s);
           ResultSet rs = stmt.executeQuery("SELECT * FROM observadores");
           while (rs.next()) {
-            System.out.println("Read from DB: " + rs.getString("nombre")+" "+rs.getString("url")+" "+rs.getString("mail"));
+            System.out.println("Read from DB: " + rs.getString("nombre")+" "+rs.getString("url")+" "+rs.getString("mail")+" "+rs.getString("intereses"));
           }
         }
         catch(Exception e){

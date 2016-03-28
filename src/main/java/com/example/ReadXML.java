@@ -15,6 +15,7 @@ import org.jdom.input.SAXBuilder;
   <nombre>Tove</nombre>
   <url>Jani</url>
   <mail>Reminder</mail>
+  <intereses>1,2,3</intereses>
 </observador> */
 
 public class ReadXML{
@@ -22,7 +23,7 @@ public class ReadXML{
   public String[] cargarXml(String archivo){
     //Se crea un SAXBuilder para poder parsear el archivo
     //System.out.println(archivo);
-    String reg[]={"","",""};
+    String reg[]={"","","",""};
     SAXBuilder builder = new SAXBuilder();
     try{
         //Se crea el documento a traves del archivo
@@ -34,6 +35,7 @@ public class ReadXML{
         reg[0]=rootNode.getChildText("nombre");
         reg[1]=rootNode.getChildText("url");
         reg[2]=rootNode.getChildText("mail");
+        reg[3]=rootNode.getChildText("intereses");
     }
     catch ( IOException io ) {
         System.out.println( io.getMessage() );
