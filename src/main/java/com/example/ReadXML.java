@@ -21,7 +21,7 @@ public class ReadXML{
 
   public String[] cargarXml(String archivo){
     //Se crea un SAXBuilder para poder parsear el archivo
-    System.out.println(archivo);
+    //System.out.println(archivo);
     String reg[]={"","",""};
     SAXBuilder builder = new SAXBuilder();
     try{

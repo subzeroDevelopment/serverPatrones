@@ -24,30 +24,38 @@ public class AgregarUser{
       @POST
       @Path("/prueba")
       @Consumes(MediaType.APPLICATION_XML)
-      @Produces(MediaType.APPLICATION_XML)
+      @Produces(MediaType.TEXT_PLAIN)
       public Response postPrueba(String incomingXML,@Context HttpHeaders headers){
-
+        String []ar;
+        try{
         ReadXML lec=new ReadXML();
-        String []ar=lec.cargarXml(incomingXML);
+          ar=lec.cargarXml(incomingXML);
+        }
+        catch(Exception e){
+          e.printStackTrace();
+          return Response.status(400).entity(incomingXML).build();
+
+        }
         try{
           Connection connection = GetConnection.getConnection();
 
           Statement stmt = connection.createStatement();
-          stmt.executeUpdate("DROP TABLE IF EXISTS ticks");
-          stmt.executeUpdate("CREATE TABLE ticks (tick timestamp)");
-          stmt.executeUpdate("INSERT INTO ticks VALUES (now())");
-          ResultSet rs = stmt.executeQuery("SELECT tick FROM ticks");
+          String s="INSERT INTO observadores(nombre,url,mail) VALUES(\'"+ar[0]+"\',\'"+ar[1]+"\',\'"+ar[2]+"\')";
+          //System.out.println(s);
+          stmt.executeUpdate(s);
+          ResultSet rs = stmt.executeQuery("SELECT * FROM observadores");
           while (rs.next()) {
-            System.out.println("Read from DB: " + rs.getTimestamp("tick"));
+            System.out.println("Read from DB: " + rs.getString("nombre")+" "+rs.getString("url")+" "+rs.getString("mail"));
           }
         }
         catch(Exception e){
           e.printStackTrace();
+          return Response.status(400).entity(incomingXML).build();
         }
 
         //String s = headers.getRequestHeaders().getFirst("Content-Type");
 
-        return Response.status(200).entity("timestamp : " + incomingXML).build();
+        return Response.status(200).entity("Observador agregado con exito").build();
       }
 
       @POST
