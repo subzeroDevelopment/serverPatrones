@@ -7,17 +7,17 @@ public class GetConnection {
       private static Connection driver=null;
 
     private GetConnection(){}
+
     public  static Connection getConnection() throws URISyntaxException, SQLException {
         if(driver==null){
-          URI dbUri = new URI(System.getenv("DATABASE_URL"));
-          String username = dbUri.getUserInfo().split(":")[0];
-          String password = dbUri.getUserInfo().split(":")[1];
+          String username = "postgres";
+          String password = "toor";
           System.out.println("user:"+username);
           System.out.println("pass:"+password);
 
-          String dbUrl = "jdbc:postgresql://" + dbUri.getHost() + dbUri.getPath();
+          String dbUrl = "jdbc:postgresql://127.0.0.1:5432/patrones";
           driver=DriverManager.getConnection(dbUrl, username, password);
-          return DriverManager.getConnection(dbUrl, username, password);
+          return driver;
       }
       else{
         return driver;
