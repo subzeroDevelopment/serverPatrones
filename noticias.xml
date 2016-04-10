@@ -1,32 +1,59 @@
-<?xml version="1.0" encoding="iso-8859-1"?><rss xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>El Universal: Mundo</title><link>http://www.eluniversal.com.mx/elmundo/index.html</link><description>Servicio de Noticias en Espa�ol</description><language>es-MX</language><item><title>Ni�os del Estado Isl�mico asesinan a 25 soldados sirios</title>
-<link>http://www.eluniversal.com.mx/el-mundo/2015/ninios-del-estado-islamico-asesinan-a-25-soldados-sirios-1111830.html</link>
-<guid>http://www.eluniversal.com.mx/el-mundo/2015/ninios-del-estado-islamico-asesinan-a-25-soldados-sirios-1111830.html</guid>
-<pubDate>Sat, 04 Jul 2015 12:27:00 CST</pubDate>
-<description><img src="http://www.eluniversal.com.mx/img/2015/07/Int/estado_silamico_ejecuin_menores_old-web.jpg" title="Ni�os del Estado Isl�mico asesinan a 25 soldados sirios" /> Yihadistas publican video donde aparecen las v�ctimas de rodillas y en fila en el escenario del teatro romano de Palmira</description>
-<author>EFE</author>
-</item>
-<item>
-<title>Fidel reaparece en reuni�n de maestros queseros</title>
-<link>http://www.eluniversal.com.mx/el-mundo/2015/fidel-reaparece-en-reunion-de-maestros-queseros-1111829.html</link>
-<guid>http://www.eluniversal.com.mx/el-mundo/2015/fidel-reaparece-en-reunion-de-maestros-queseros-1111829.html</guid>
-<pubDate>Sat, 04 Jul 2015 11:46:00 CST</pubDate>
-<description><img src="http://www.eluniversal.com.mx/img/2015/07/Int/fidel_reaparece_maestros_queseros_old-web.jpg" title="Fidel reaparece en reuni�n de maestros queseros" /> Sostuvo un amplio intercambio de m�s de cuatro horas con 19 maestros queseros en un instituto en el poblado del Guatao</description>
-<author>EFE</author>
-</item>
-<item>
-<title>Van 59 muertos en el �ltimo naufragio en Filipinas</title>
-<link>http://www.eluniversal.com.mx/el-mundo/2015/van-59-muertos-en-el-ultimo-naufragio-en-filipinas-1111826.html</link>
-<guid>http://www.eluniversal.com.mx/el-mundo/2015/van-59-muertos-en-el-ultimo-naufragio-en-filipinas-1111826.html</guid>
-<pubDate>Sat, 04 Jul 2015 02:30:00 CST</pubDate>
-<description>La Polic�a de Ormoc, ciudad portuaria de la provincia de Leyte, present� anoche cargos criminales contra los due�os, el capit�n y la tripulaci�n, de acuerdo con GMA</description>
-<author>EFE</author>
-</item>
-<item>
-<title>Video: Tibur�n blanco ataca jaula de buzos en Sud�frica</title>
-<link>http://www.eluniversal.com.mx/el-mundo/2015/video-tiburon-blanco-ataca-jaula-de-buzos-en-sudafrica-1111818.html</link>
-<guid>http://www.eluniversal.com.mx/el-mundo/2015/video-tiburon-blanco-ataca-jaula-de-buzos-en-sudafrica-1111818.html</guid>
-<pubDate>Sat, 04 Jul 2015 00:28:00 CST</pubDate>
-<description><img src="http://www.eluniversal.com.mx/img/2015/07/Int/tiburon_jaula_buzos-web.jpg" title="Video: Tibur�n blanco ataca jaula de buzos en Sud�frica" /> El tibur�n arremeti� contra la jaula en la que se proteg�a Hillary Rae Petroski quien capt� con su c�mara el momento del ataque</description>
-<author>El Comercio - Per� / GDA</author>
-</item>
-</channel></rss>
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>RSS subzero</title>
+    <link>http://localhost:5000</link>
+    <description>RSS de subzero</description>
+    <language>es-MX</language>
+    <item>
+      <title>Niï¿½os del Estado Islï¿½mico asesinan a 25 soldados sirios</title>
+      <link>http://www.eluniversal.com.mx/el-mundo/2015/ninios-del-estado-islamico-asesinan-a-25-soldados-sirios-1111830.html</link>
+      <guid>http://www.eluniversal.com.mx/el-mundo/2015/ninios-del-estado-islamico-asesinan-a-25-soldados-sirios-1111830.html</guid>
+      <pubDate>2015-07-04 12:27:00</pubDate>
+      <description>Yihadistas publican video donde aparecen las vï¿½ctimas de rodillas y en fila en el escenario del teatro romano de Palmira</description>
+    </item>
+    <item>
+      <title>Fidel reaparece en reuniï¿½n de maestros queseros</title>
+      <link>http://www.eluniversal.com.mx/el-mundo/2015/fidel-reaparece-en-reunion-de-maestros-queseros-1111829.html</link>
+      <guid>http://www.eluniversal.com.mx/el-mundo/2015/fidel-reaparece-en-reunion-de-maestros-queseros-1111829.html</guid>
+      <pubDate>2015-07-04 11:46:00</pubDate>
+      <description>Sostuvo un amplio intercambio de mï¿½s de cuatro horas con 19 maestros queseros en un instituto en el poblado del Guatao</description>
+    </item>
+    <item>
+      <title>Van 59 muertos en el ï¿½ltimo naufragio en Filipinas</title>
+      <link>http://www.eluniversal.com.mx/el-mundo/2015/van-59-muertos-en-el-ultimo-naufragio-en-filipinas-1111826.html</link>
+      <guid>http://www.eluniversal.com.mx/el-mundo/2015/van-59-muertos-en-el-ultimo-naufragio-en-filipinas-1111826.html</guid>
+      <pubDate>2015-07-04 02:30:00</pubDate>
+      <description>La Policï¿½a de Ormoc, ciudad portuaria de la provincia de Leyte, presentï¿½ anoche cargos criminales contra los dueï¿½os, el capitï¿½n y la tripulaciï¿½n, de acuerdo con GMA</description>
+    </item>
+    <item>
+      <title>Video: Tiburï¿½n blanco ataca jaula de buzos en Sudï¿½frica</title>
+      <link>http://www.eluniversal.com.mx/el-mundo/2015/video-tiburon-blanco-ataca-jaula-de-buzos-en-sudafrica-1111818.html</link>
+      <guid>http://www.eluniversal.com.mx/el-mundo/2015/video-tiburon-blanco-ataca-jaula-de-buzos-en-sudafrica-1111818.html</guid>
+      <pubDate>2015-07-04 00:28:00</pubDate>
+      <description>El tiburï¿½n arremetiï¿½ contra la jaula en la que se protegï¿½a Hillary Rae Petroski quien captï¿½ con su cï¿½mara el momento del ataque</description>
+    </item>
+    <item>
+      <title>‘Verdugos’, una investigación de Ana Lilia Pérez sobre el abuso militar</title>
+      <link>http://aristeguinoticias.com/3003/lomasdestacado/verdugos-una-investigacion-de-ana-lilia-perez-sobre-el-abuso-militar/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=verdugos-una-investigacion-de-ana-lilia-perez-sobre-el-abuso-militar</link>
+      <guid>http://aristeguinoticias.com/?p=596615</guid>
+      <pubDate>2016-03-30 22:13:36</pubDate>
+      <description>La periodista cuenta el dramático proceso mediante el cual un militar puede convertirse en un verdugo y cómo cualquier ciudadano está a su merced.</description>
+    </item>
+    <item>
+      <title>El Colegio Nacional reedita el primer libro de Fernando del Paso</title>
+      <link>http://aristeguinoticias.com/3003/lomasdestacado/el-colegio-nacional-reedita-el-primer-libro-de-fernando-del-paso/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=el-colegio-nacional-reedita-el-primer-libro-de-fernando-del-paso</link>
+      <guid>http://aristeguinoticias.com/?p=596607</guid>
+      <pubDate>2016-03-30 21:59:25</pubDate>
+      <description>‘Sonetos del amor y de lo diario’ circuló por primera vez en 1958, dentro de la serie Cuadernos del Unicornio coordinada por Juan José Arreola.</description>
+    </item>
+    <item>
+      <title>El 6 de abril, reunión de diputados con Murillo Karam por caso Ayotzinapa</title>
+      <link>http://aristeguinoticias.com/3003/mexico/el-6-de-abril-reunion-de-diputados-con-murillo-karam-por-caso-ayotzinapa/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=el-6-de-abril-reunion-de-diputados-con-murillo-karam-por-caso-ayotzinapa</link>
+      <guid>http://aristeguinoticias.com/?p=596580</guid>
+      <pubDate>2016-03-30 20:56:23</pubDate>
+      <description>La reunión del grupo especial de diputados para el caso de los normalistas desaparecidos con el ex procurador General de la República, será fuera del Congreso de la Unión, a petición de él mismo.</description>
+    </item>
+  </channel>
+</rss>
+
